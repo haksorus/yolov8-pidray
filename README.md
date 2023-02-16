@@ -37,7 +37,7 @@ This method has the following **metrics**:
 
 ## **3) Yolo approach**
 
-For these case I`ve trained two detectors from [**ultralytics**](https://ultralytics.com/): new **YoloV8** and pretty old **YoloV5**. 
+For these case I`ve trained two detectors from [**ultralytics**](https://ultralytics.com/): new [**YoloV8**](https://github.com/ultralytics/ultralytics) and pretty old [**YoloV5**](https://github.com/ultralytics/yolov5). 
 
 Both of them was trained on RTX 3090 for **300 epochs** and **batch size = 32**. 
 
@@ -81,4 +81,16 @@ mAP difference between YoloV8s and YoloV5s by each class in hidden subset:
 
 # 4) Try it yourself
 ---
+In my repository you can find everything you need to run YoloV8 on PIDray data. 
 
+**The only thing you need is downloaded and converted from Coco-format to Yolo-format PIDray dataset**. You can download it from [original repo](https://github.com/bywang2018/security-dataset)
+
+Also, before start you need to install [**ultralytics**](https://github.com/ultralytics/ultralytics):
+```Python
+pip install ultralytics
+```
+Now you can use pretrained YoloV8s weights from **weights** folder to predict or validate on PIDray data.
+
+Check **demo.ipynb** for simple inference example using high-level ultralytics lib. 
+
+If you want more, check [ultralytics YoloV8 docs](https://docs.ultralytics.com/).
