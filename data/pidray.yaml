@@ -1,0 +1,20 @@
+# PidRAY dataset: https://github.com/bywang2018/security-dataset
+
+path: pidray
+train: images/train
+val: images/hidden
+test: images/hidden
+
+names:
+  0: baton
+  1: pliers
+  2: hammer
+  3: powerbank
+  4: scissors
+  5: wrench
+  6: gun
+  7: bullet
+  8: sprayer
+  9: handcuffs
+  10: knife
+  11: lighter
