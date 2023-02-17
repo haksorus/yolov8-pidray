@@ -68,10 +68,10 @@ The detectors were compared after training.
 
 **As we can see, YoloV8s shows the mAP result better than YoloV5s by 11%. That`s very cool.**
 
-| Method  | Easy mAP| Hard mAP|Hidden mAP|Overall mAP| Inference / ms (RTX 3090)| Inference / ms (CORAL EDGE TPU)|
-| ------------- | :---:  |:---:  |:---:  |:---:  |:---:  | :---:  |
-| YoloV5s  | 0.738  |0.715  |0.493  | 0.648  |~6 ms/image | ~630 ms/image |
-| **YoloV8s**  | **0.818**  |**0.78**  |**0.589**  |**0.729**  |**~6 ms/image**  | **~630 ms/image**  |
+| Method  | Easy mAP| Hard mAP|Hidden mAP|Overall mAP| Inference / ms (RTX 3090)| 
+| ------------- | :---:  |:---:  |:---:  |:---:  |:---:  | 
+| YoloV5s  | 0.738  |0.715  |0.493  | 0.648  |~6 ms/image | 
+| **YoloV8s**  | **0.818**  |**0.78**  |**0.589**  |**0.729**  |**~6 ms/image**  |
 
 **Moreover, light YoloV8s better than huge SDANet more than 15% (72.9 mAP vs 61.6 mAP)...**
 
